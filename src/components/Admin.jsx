@@ -5,9 +5,9 @@ export const ClientsList = () => {
     const [client, setClients] = useState([]);
 
 
-    useEffect{() =>{
+    useEffect(() =>{
         getData();
-    },[]}
+    },[])
 
     async function getData(){
 
